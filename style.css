@@ -1,0 +1,93 @@
+body {
+  background-color: #c5e3ed; /* Cambiado el color de fondo a celeste */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#appTodo {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+#appTodo h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+#formTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputTask {
+  padding: 12px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#btnAdd, li button {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btnAdd:hover, li button:hover {
+  background-color: #45a049;
+}
+
+#listTasks {
+  text-align: left;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e53935;
+}
